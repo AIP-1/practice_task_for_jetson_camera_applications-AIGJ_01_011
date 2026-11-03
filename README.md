@@ -8,6 +8,16 @@ AIP-1 「Jetson 카메라 응용 실습」 결과.
 
 MQTT 토픽 접두어와 홈 경로에 있던 계정 이름은 `team4`, `<user>`로 바꿔 적었다.
 
+## 제출물
+
+| 제출물 | 위치 |
+|---|---|
+| 결과 보고서 (과제 1~6) | [docs/final_report.md](docs/final_report.md) |
+| 확인 문제 답안 | [docs/check_answers.md](docs/check_answers.md) |
+| 결과 형식 문서 | [docs/interface.md](docs/interface.md) |
+| 발표 자료 (5분) | [docs/presentation_slides.md](docs/presentation_slides.md) |
+| 기능 시험 기록 T0~T4 | [runs/test_log.md](runs/test_log.md) 와 과제별 `runs/*.md` |
+
 ## 폴더
 
 | 폴더 | 과제 | 주요 결과 |
@@ -44,12 +54,12 @@ MQTT 토픽 접두어와 홈 경로에 있던 계정 이름은 `team4`, `<user>`
 | 5 | 실측 1~2 m ≤ 5%, 3 m ≤ 8%, 4 m ≤ 12% + 예상 오차와 비교 | 6개 거리 모두 합격, 예측 ΔZ 열 있음 | ✅ |
 | 5 | 측정 불가 조건 4가지와 대응 | 무늬 없음·역광·근접·빠른 움직임 | ✅ |
 | 6 | 12시간 무중단 기록 | 12.00 h, 재시작 0, 재연결 0, GPU 평균 41%, RAM 3.1 GB, 9.9 W | ✅ |
-| 6 | 카메라 1대 분리 시 나머지 정상, 복귀 시 재연결 | `t6_unplug_test.csv`, `t6_unplug_mqtt.log` 기록은 있으나 판정 문서 없음 | ⚠️ |
+| 6 | 카메라 1대 분리 시 나머지 정상, 복귀 시 재연결 | 왼쪽 웹캠 분리 5 s 뒤 재연결, 같은 PID, 재실 인원 fps 영향 없음 (`t6_unplug_test.csv`, 보고서 6절) | ✅ |
 | 6 | 재부팅 후 3분 안 복귀 | 기록 없음 | ❌ |
-| 6 | 결과 형식 문서(토픽·필드·단위·예시·주기) | t6/README.md·PLAN.md에 토픽만 있음, 1~2쪽 형식 문서 없음 | ❌ |
+| 6 | 결과 형식 문서(토픽·필드·단위·예시·주기) | [docs/interface.md](docs/interface.md) | ✅ |
 | 6 | 운영 모드 영상 저장 0건 | 12시간 새 이미지 0개, 저장 경로 목록 t6/README.md | ✅ |
 
-최종 제출물 중 **기능 시험 기록(`runs/test_log.md`)**은 있다. **결과 보고서(과제 1~6 묶음), 확인 문제 답안, 결과 형식 문서, 발표 자료**는 아직 없다.
+남은 미충족: 과제 3 정확도와 분석, 재부팅 3분 시험, 재연결 30 s(약간 초과).
 
 ## 공개 저장소에서 뺀 것
 
