@@ -1,0 +1,60 @@
+nohup: ignoring input
+14:03:30 뷰어 http://<Jetson IP>:8020/  (입력 rtsp://192.168.0.145:554/stream1)
+[ WARN:6@297.769] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3005.347552 ms
+[ WARN:6@300.779] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3005.647074 ms
+[ WARN:6@303.804] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.205090 ms
+[ WARN:6@306.859] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.826602 ms
+14:08:37 입력 끊김 (rtsp://192.168.0.145:554/stream1), 다시 연결 시도
+[ WARN:6@311.877] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5007.757528 ms
+[ WARN:6@311.877] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@317.389] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5010.953963 ms
+[ WARN:6@317.389] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@323.398] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5008.301803 ms
+[ WARN:6@323.399] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+14:08:56 재연결 1회 (rtsp://192.168.0.145:554/stream1)
+17:49:31 뷰어 http://<Jetson IP>:8020/  (입력 rtsp://192.168.0.145:554/stream1)
+18:02:34 뷰어 http://<Jetson IP>:8020/  (입력 rtsp://192.168.0.145:554/stream1)
+[ WARN:6@57492.643] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.390944 ms
+[ WARN:6@57495.652] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.004308 ms
+10:00:51 입력 끊김 (rtsp://192.168.0.145:554/stream1), 다시 연결 시도
+10:00:52 재연결 1회 (rtsp://192.168.0.145:554/stream1)
+[ WARN:6@57502.139] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3003.905413 ms
+[ WARN:6@57505.148] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3003.847042 ms
+[ WARN:6@57508.178] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3003.646588 ms
+[ WARN:6@57511.232] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3003.799583 ms
+10:01:05 입력 끊김 (rtsp://192.168.0.145:554/stream1), 다시 연결 시도
+10:01:06 재연결 2회 (rtsp://192.168.0.145:554/stream1)
+[ WARN:6@57565.637] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.295231 ms
+[ WARN:6@57660.634] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.755757 ms
+[ WARN:6@57684.185] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.290868 ms
+[ WARN:6@57687.193] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.336424 ms
+[ WARN:6@57690.215] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3003.801614 ms
+[ WARN:6@57693.270] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 3004.052487 ms
+10:04:07 입력 끊김 (rtsp://192.168.0.145:554/stream1), 다시 연결 시도
+[ WARN:6@57698.283] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5007.063630 ms
+[ WARN:6@57698.283] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57703.795] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5007.124680 ms
+[ WARN:6@57703.795] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57709.805] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5009.406375 ms
+[ WARN:6@57709.805] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57716.816] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5007.973825 ms
+[ WARN:6@57716.816] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57725.827] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5008.960897 ms
+[ WARN:6@57725.827] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57738.836] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5007.794236 ms
+[ WARN:6@57738.836] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57751.845] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5007.947833 ms
+[ WARN:6@57751.845] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57764.855] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5009.065684 ms
+[ WARN:6@57764.855] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57777.865] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5009.546344 ms
+[ WARN:6@57777.865] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57790.875] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5008.618533 ms
+[ WARN:6@57790.875] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57803.889] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5010.005977 ms
+[ WARN:6@57803.889] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57816.897] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5006.271657 ms
+[ WARN:6@57816.897] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[ WARN:6@57829.906] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 5008.556830 ms
+[ WARN:6@57829.906] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+10:06:35 재연결 3회 (rtsp://192.168.0.145:554/stream1)

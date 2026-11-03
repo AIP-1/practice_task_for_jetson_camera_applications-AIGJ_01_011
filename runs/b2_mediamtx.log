@@ -1,0 +1,22 @@
+2026/10/29 14:42:13 INF MediaMTX v1.21.2, linux, arm64
+2026/10/29 14:42:13 INF configuration loaded from /home/<user>/eg2-lab/applab/b2/mediamtx/b2.yml
+2026/10/29 14:42:13 INF [RTSP] started with listeners on 127.0.0.1:8554 (TCP/RTSP)
+2026/10/29 14:42:13 INF [RTMP] started with listener on 127.0.0.1:1935 (TCP/RTMP)
+2026/10/29 14:43:10 INF [RTMP] [conn 127.0.0.1:58120] opened
+2026/10/29 14:43:12 INF [path live/webcam] stream is available and online, 1 track (H264)
+2026/10/29 14:43:12 INF [RTMP] [conn 127.0.0.1:58120] is publishing to path 'live/webcam'
+2026/10/29 14:43:23 INF [RTSP] [conn 127.0.0.1:46716] opened
+2026/10/29 14:43:23 INF [RTSP] [session 21ff3974] created by 127.0.0.1:46716
+2026/10/29 14:43:23 INF [RTSP] [session 21ff3974] is reading from path 'live/webcam', with TCP, 1 track (H264)
+2026/10/29 16:55:35 INF [RTSP] [conn 127.0.0.1:46716] closed: read tcp 127.0.0.1:8554->127.0.0.1:46716: read: connection reset by peer
+2026/10/29 16:55:35 INF [RTSP] [session 21ff3974] destroyed: not in use
+2026/10/29 16:55:54 INF [RTSP] [conn 127.0.0.1:43482] opened
+2026/10/29 16:55:54 INF [RTSP] [session 68b8266f] created by 127.0.0.1:43482
+2026/10/29 16:55:54 INF [RTSP] [session 68b8266f] is reading from path 'live/webcam', with TCP, 1 track (H264)
+2026/10/29 17:03:40 INF shutting down gracefully
+2026/10/29 17:03:40 INF [RTMP] closing
+2026/10/29 17:03:40 INF [RTMP] [conn 127.0.0.1:58120] closed: terminated
+2026/10/29 17:03:40 INF [RTSP] closing
+2026/10/29 17:03:40 INF [RTSP] [conn 127.0.0.1:43482] closed: terminated
+2026/10/29 17:03:40 INF [RTSP] [session 68b8266f] destroyed: terminated
+2026/10/29 17:03:40 INF waiting for running hooks

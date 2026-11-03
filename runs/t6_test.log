@@ -1,0 +1,21 @@
+16:26:27 카메라 ipcam: offline
+16:26:27 카메라 left: offline
+16:26:27 카메라 right: offline
+16:26:27 t6 서비스 :8030 ops=True MQTT 127.0.0.1:1883 team4/t6/*, A1 rtsp://192.168.0.145:554/stream1, A4 2.4/2.2, near 1.0 far 3.0
+16:26:28 카메라 left: online
+16:26:28 카메라 right: online
+Loading /home/<user>/eg2-lab/applab/t2/yolo11n_fp16.engine for TensorRT inference...
+[10/30/2026-16:26:28] [TRT] [I] Loaded engine size: 7 MiB
+[10/30/2026-16:26:28] [TRT] [W] Using an engine plan file across different models of devices is not supported and is likely to affect performance or even cause errors or deadlock.
+[10/30/2026-16:26:28] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +9, now: CPU 0, GPU 14 (MiB)
+Loading /home/<user>/eg2-lab/applab/t3/yolo11n_fp16_960.engine for TensorRT inference...
+[10/30/2026-16:26:29] [TRT] [I] Loaded engine size: 8 MiB
+[10/30/2026-16:26:29] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +22, now: CPU 1, GPU 41 (MiB)
+16:26:29 카메라 ipcam: online
+16:26:46 근접 상태 unknown → far (4.504 m)
+16:26:47 근접 상태 far → unknown (None m)
+16:26:56 근접 상태 unknown → far (4.385 m)
+16:27:26 근접 상태 far → unknown (None m)
+16:27:33 근접 상태 unknown → far (4.444 m)
+16:29:37 근접 상태 far → mid (2.84 m)
+16:29:39 근접 상태 mid → far (4.182 m)

@@ -1,0 +1,16 @@
+17:38:14 MQTT 연결 127.0.0.1:1883
+17:38:14 입력 rtsp://192.168.0.145:554/stream1, 선 0.30,0.80,0.66,0.80, IN = 발이 선을 위→아래(카메라 쪽으로) 넘을 때, MQTT team4/t2/line
+Loading /home/<user>/eg2-lab/applab/t2/yolo11n_fp16.engine for TensorRT inference...
+[10/29/2026-17:38:16] [TRT] [I] Loaded engine size: 7 MiB
+[10/29/2026-17:38:16] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +9, now: CPU 0, GPU 14 (MiB)
+17:38:29 카운터 초기화
+17:41:20 통과 {"ts": 1793263280.835, "id": 470, "dir": "IN", "in": 1, "out": 0}
+17:41:23 통과 {"ts": 1793263283.793, "id": 470, "dir": "OUT", "in": 1, "out": 1}
+17:41:28 통과 {"ts": 1793263288.661, "id": 470, "dir": "IN", "in": 2, "out": 1}
+17:41:34 통과 {"ts": 1793263294.423, "id": 470, "dir": "OUT", "in": 2, "out": 2}
+17:41:40 통과 {"ts": 1793263300.592, "id": 470, "dir": "IN", "in": 3, "out": 2}
+17:41:44 통과 {"ts": 1793263304.426, "id": 470, "dir": "OUT", "in": 3, "out": 3}
+17:41:49 통과 {"ts": 1793263309.041, "id": 470, "dir": "IN", "in": 4, "out": 3}
+17:41:56 통과 {"ts": 1793263316.109, "id": 470, "dir": "OUT", "in": 4, "out": 4}
+17:42:00 통과 {"ts": 1793263320.87, "id": 537, "dir": "IN", "in": 5, "out": 4}
+17:42:04 통과 {"ts": 1793263324.465, "id": 537, "dir": "OUT", "in": 5, "out": 5}

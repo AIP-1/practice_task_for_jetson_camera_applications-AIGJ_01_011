@@ -1,0 +1,25 @@
+14:43:31 MQTT 연결 127.0.0.1:1883
+14:43:31 입력 rtsp://192.168.0.145:554/stream1, 엔진 yolo11n_fp16_960.engine, 타일 2x2 겹침 0.15, 기준점 foot, 보정 median 10.0s, MQTT team4/t3/occupancy
+Loading /home/<user>/eg2-lab/applab/t3/yolo11n_fp16_960.engine for TensorRT inference...
+[10/30/2026-14:43:32] [TRT] [I] Loaded engine size: 8 MiB
+[10/30/2026-14:43:32] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +21, now: CPU 0, GPU 26 (MiB)
+----------------------------------------
+Exception occurred during processing of request from ('100.104.242.21', 64609)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/home/<user>/eg2-lab/applab/t3/occupancy.py", line 244, in do_GET
+    return self.wfile.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------

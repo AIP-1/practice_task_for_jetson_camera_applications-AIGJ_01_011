@@ -1,0 +1,13 @@
+14:02:12 정류 640x360, f 489.3 px, B 127.1 mm, 시차 8~88 px (→ 0.71~7.8 m)
+14:02:12 사람 거리 :8031  왼쪽 2.4, 오른쪽 2.2, 기록 → /home/<user>/eg2-lab/applab/runs/t5_person_dist.csv
+Loading /home/<user>/eg2-lab/applab/t2/yolo11n_fp16.engine for TensorRT inference...
+[10/30/2026-14:02:13] [TRT] [I] Loaded engine size: 7 MiB
+[10/30/2026-14:02:13] [TRT] [W] Using an engine plan file across different models of devices is not supported and is likely to affect performance or even cause errors or deadlock.
+[10/30/2026-14:02:13] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +9, now: CPU 0, GPU 14 (MiB)
+14:03:46 시험 person3tile: 
+14:12:03 시험 person3tile: #2 1.4968 m (67/67)
+14:12:44 시험 person6tile: #9 2.4822 m (65/65)
+14:13:24 시험 person8tile: #9 3.6195 m (67/67)
+14:14:26 시험 person6tile_redo: #9 2.727 m (69/69)
+14:14:56 시험 person3tile_redo: #9 1.426 m (70/70)
+14:15:56 시험 two_people: #12 1.4446 m (69/69), #16 3.646 m (69/69)

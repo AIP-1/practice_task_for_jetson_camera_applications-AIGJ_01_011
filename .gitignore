@@ -1,0 +1,13 @@
+.env
+*.env
+*.jpg
+*.png
+*.mkv
+*.mp4
+*.pt
+*.onnx
+*.engine
+*.ts
+*.key
+*.crt
+__pycache__/

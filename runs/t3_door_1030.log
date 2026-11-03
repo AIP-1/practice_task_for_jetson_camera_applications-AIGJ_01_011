@@ -1,0 +1,51 @@
+14:44:40 MQTT 연결 127.0.0.1:1883
+14:44:40 입력 rtsp://192.168.0.145:554/stream1, 선 0.891,0.379,0.918,0.414, IN = 발이 선을 위→아래(카메라 쪽으로) 넘을 때, MQTT team4/t3/door
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@3.094] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@3.657] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@4.714] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@6.758] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@10.836] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@18.886] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@26.956] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@35.005] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@43.078] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@51.123] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@59.223] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@67.280] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@75.328] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@83.407] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@91.470] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@99.534] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@107.601] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@115.676] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@123.730] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+[rtsp @ 0xfffeb0002a60] method PLAY failed: 429 (Stream Up To Limit)
+[ WARN:0@131.804] global cap.cpp:212 open VIDEOIO(FFMPEG): backend is generally available but can't be used to capture by name
+Loading /home/<user>/eg2-lab/applab/t2/yolo11n_fp16.engine for TensorRT inference...
+[10/30/2026-14:46:58] [TRT] [I] Loaded engine size: 7 MiB
+[10/30/2026-14:46:58] [TRT] [W] Using an engine plan file across different models of devices is not supported and is likely to affect performance or even cause errors or deadlock.
+[10/30/2026-14:46:58] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +9, now: CPU 0, GPU 14 (MiB)
+14:57:20 통과 {"ts": 1793339840.899, "id": 326, "dir": "OUT", "in": 0, "out": 1}
+14:57:21 통과 {"ts": 1793339841.506, "id": 326, "dir": "IN", "in": 1, "out": 1}
+15:00:20 통과 {"ts": 1793340020.202, "id": 472, "dir": "OUT", "in": 1, "out": 2}
+15:00:27 통과 {"ts": 1793340027.081, "id": 499, "dir": "IN", "in": 2, "out": 2}
+15:00:30 통과 {"ts": 1793340030.96, "id": 522, "dir": "IN", "in": 3, "out": 2}

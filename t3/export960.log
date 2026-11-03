@@ -1,0 +1,48 @@
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+Ultralytics 8.4.184 🚀 Python-3.12.3 torch-2.14.1+cu132 CUDA:0 (Orin, 7485MiB)
+YOLO11n summary (fused): 100 layers, 2,616,248 parameters, 0 gradients, 14.9 GFLOPs
+
+[34m[1mPyTorch:[0m starting from '/home/<user>/eg2-lab/applab/t2/yolo11n.pt' with input shape (1, 3, 960, 960) BCHW and output shape(s) (1, 84, 18900) (5.4 MB)
+
+[34m[1mONNX:[0m starting export with onnx 1.23.2 opset 18...
+[34m[1mONNX:[0m slimming with onnxslim 0.1.98...
+[34m[1mONNX:[0m export success ✅ 3.2s, saved as '/home/<user>/eg2-lab/applab/t2/yolo11n.onnx' (10.4 MB)
+WARNING ⚠️ [31m[1mrequirements:[0m Ultralytics requirement ['tensorrt-cu13>=10.15,<11,!=10.2.0'] not found, AutoUpdate disabled by YOLO_AUTOINSTALL=False
+
+[34m[1mTensorRT:[0m starting export with TensorRT 10.16.2.10...
+[10/29/2026-19:22:05] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 727, GPU 3510 (MiB)
+[10/29/2026-19:22:06] [TRT] [I] ----------------------------------------------------------------
+[10/29/2026-19:22:06] [TRT] [I] Input filename:   /home/<user>/eg2-lab/applab/t2/yolo11n.onnx
+[10/29/2026-19:22:06] [TRT] [I] ONNX IR version:  0.0.8
+[10/29/2026-19:22:06] [TRT] [I] Opset version:    18
+[10/29/2026-19:22:06] [TRT] [I] Producer name:    pytorch
+[10/29/2026-19:22:06] [TRT] [I] Producer version: 2.14.1
+[10/29/2026-19:22:06] [TRT] [I] Domain:           
+[10/29/2026-19:22:06] [TRT] [I] Model version:    0
+[10/29/2026-19:22:06] [TRT] [I] Doc string:       
+[10/29/2026-19:22:06] [TRT] [I] ----------------------------------------------------------------
+[34m[1mTensorRT:[0m input "images" with shape(1, 3, 960, 960) DataType.FLOAT
+[34m[1mTensorRT:[0m output "output0" with shape(1, 84, 18900) DataType.FLOAT
+[34m[1mTensorRT:[0m building FP16 engine as /home/<user>/eg2-lab/applab/t2/yolo11n.engine
+[10/29/2026-19:22:06] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +180, GPU +182, now: CPU 1110, GPU 3852 (MiB)
+[10/29/2026-19:22:07] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[10/29/2026-19:26:14] [TRT] [I] Compiler backend is used during engine build.
+[10/29/2026-19:29:46] [TRT] [I] Detected 1 inputs and 3 output network tensors.
+[10/29/2026-19:29:50] [TRT] [I] Total Host Persistent Memory: 547072 bytes
+[10/29/2026-19:29:50] [TRT] [I] Total Device Persistent Memory: 0 bytes
+[10/29/2026-19:29:50] [TRT] [I] Max Scratch Memory: 6710784 bytes
+[10/29/2026-19:29:50] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 176 steps to complete.
+[10/29/2026-19:29:50] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 26.5949ms to assign 10 blocks to 176 nodes requiring 22694912 bytes.
+[10/29/2026-19:29:50] [TRT] [I] Total Activation Memory: 22694400 bytes
+[10/29/2026-19:29:50] [TRT] [I] Total Weights Memory: 5493156 bytes
+[10/29/2026-19:29:51] [TRT] [I] Compiler backend is used during engine execution.
+[10/29/2026-19:29:51] [TRT] [I] Engine generation completed in 464.012 seconds.
+[10/29/2026-19:29:51] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 0 MiB, GPU 378 MiB
+[34m[1mTensorRT:[0m export success ✅ 469.7s, saved as '/home/<user>/eg2-lab/applab/t2/yolo11n.engine' (8.5 MB)
+
+Export complete (472.6s)
+Results saved to [1m/home/<user>/eg2-lab/applab/t2/yolo11n.engine[0m
+Predict:         yolo predict task=detect model=/home/<user>/eg2-lab/applab/t2/yolo11n.engine imgsz=960 quantize=16
+Validate:        yolo val task=detect model=/home/<user>/eg2-lab/applab/t2/yolo11n.engine imgsz=960  quantize=16
+Visualize:       https://netron.app
+EXPORT_DONE

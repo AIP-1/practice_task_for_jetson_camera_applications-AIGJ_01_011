@@ -1,0 +1,14 @@
+{"case": "max_h264_HW", "frames": 1531, "sec": 9.2, "fps": 168.8, "proc_cpu_1core": 57.2, "proc_cpu_6core": 9.5, "sys_cpu": 54.6, "error": null}
+{"case": "max_h264_FF", "frames": 1531, "sec": 7.8, "fps": 196.4, "proc_cpu_1core": 278.8, "proc_cpu_6core": 46.5, "sys_cpu": 85.7, "error": null}
+{"case": "max_h265_HW", "frames": 1531, "sec": 9.4, "fps": 164.2, "proc_cpu_1core": 57.5, "proc_cpu_6core": 9.6, "sys_cpu": 53.0, "error": null}
+{"case": "max_h265_de265", "frames": 1531, "sec": 36.8, "fps": 41.7, "proc_cpu_1core": 192.5, "proc_cpu_6core": 32.1, "sys_cpu": 69.9, "error": null}
+{"case": "max_h265_FF", "frames": 1531, "sec": 11.5, "fps": 134.6, "proc_cpu_1core": 241.0, "proc_cpu_6core": 40.2, "sys_cpu": 83.1, "error": null}
+{"case": "rt_h264_HW", "frames": 1531, "sec": 61.5, "fps": 24.9, "proc_cpu_1core": 10.1, "proc_cpu_6core": 1.7, "sys_cpu": 46.1, "error": null}
+{"case": "rt_h264_FF", "frames": 1531, "sec": 61.3, "fps": 25.0, "proc_cpu_1core": 43.6, "proc_cpu_6core": 7.3, "sys_cpu": 49.4, "error": null}
+{"case": "rt_h265_HW", "frames": 1531, "sec": 61.5, "fps": 24.9, "proc_cpu_1core": 10.4, "proc_cpu_6core": 1.7, "sys_cpu": 45.9, "error": null}
+{"case": "rt_h265_de265", "frames": 1531, "sec": 61.5, "fps": 24.9, "proc_cpu_1core": 126.8, "proc_cpu_6core": 21.1, "sys_cpu": 55.3, "error": null}
+{"case": "rt_h265_FF", "frames": 1531, "sec": 61.3, "fps": 25.0, "proc_cpu_1core": 53.0, "proc_cpu_6core": 8.8, "sys_cpu": 48.8, "error": null}
+{"case": "rtsp_HW", "frames": 1496, "sec": 60.0, "fps": 25.1, "proc_cpu_1core": 15.2, "proc_cpu_6core": 2.5, "sys_cpu": 46.3, "error": null}
+{"case": "rtsp_de265", "frames": 1472, "sec": 60.0, "fps": 24.7, "proc_cpu_1core": 122.8, "proc_cpu_6core": 20.5, "sys_cpu": 60.1, "error": null}
+{"case": "rtsp_FF", "frames": 1517, "sec": 60.0, "fps": 25.3, "proc_cpu_1core": 56.0, "proc_cpu_6core": 9.3, "sys_cpu": 52.0, "error": null}
+DONE

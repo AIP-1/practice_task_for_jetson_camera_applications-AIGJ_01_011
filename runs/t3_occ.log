@@ -1,0 +1,5 @@
+10:07:58 MQTT 연결 127.0.0.1:1883
+10:07:58 입력 rtsp://192.168.0.145:554/stream1, 엔진 yolo11n_fp16_960.engine, 타일 2x2 겹침 0.15, 기준점 foot, 보정 median 10.0s, MQTT team4/t3/occupancy
+Loading /home/<user>/eg2-lab/applab/t3/yolo11n_fp16_960.engine for TensorRT inference...
+[10/30/2026-10:07:59] [TRT] [I] Loaded engine size: 8 MiB
+[10/30/2026-10:07:59] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +21, now: CPU 0, GPU 26 (MiB)

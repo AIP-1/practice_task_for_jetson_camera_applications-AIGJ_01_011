@@ -1,0 +1,30 @@
+17:44:04 입력 rtsp://192.168.0.145:554/stream1, 기록 10초, 결과 /home/<user>/eg2-lab/applab/runs/t2_conf.csv
+Loading /home/<user>/eg2-lab/applab/t2/yolo11n_fp16.engine for TensorRT inference...
+[10/29/2026-17:44:05] [TRT] [I] Loaded engine size: 7 MiB
+[10/29/2026-17:44:05] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +9, now: CPU 0, GPU 14 (MiB)
+17:49:06 입력 rtsp://192.168.0.145:554/stream1, 기록 10초, 결과 /home/<user>/eg2-lab/applab/runs/t2_conf.csv
+Loading /home/<user>/eg2-lab/applab/t2/yolo11n_fp16.engine for TensorRT inference...
+[10/29/2026-17:49:08] [TRT] [I] Loaded engine size: 7 MiB
+[10/29/2026-17:49:08] [TRT] [W] Using an engine plan file across different models of devices is not supported and is likely to affect performance or even cause errors or deadlock.
+[10/29/2026-17:49:08] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +9, now: CPU 0, GPU 14 (MiB)
+17:52:31 기록 시작 bright_2m
+17:52:41 기록 {"time": "17:52:41", "label": "bright_2m", "frames": 251, "det_rate": 1.0, "conf_mean": 0.919, "conf_min": 0.875, "conf_max": 0.939, "box_h_px_mean": 1338, "foot_x": 0.439, "foot_y": 0.933, "snapshot": "t2_conf_bright_2m.jpg"}
+17:55:41 기록 시작 bright_end
+17:55:51 기록 {"time": "17:55:51", "label": "bright_end", "frames": 251, "det_rate": 1.0, "conf_mean": 0.89, "conf_min": 0.851, "conf_max": 0.917, "box_h_px_mean": 515, "foot_x": 0.608, "foot_y": 0.479, "snapshot": "t2_conf_bright_end.jpg"}
+18:02:38 입력 rtsp://192.168.0.145:554/stream1, 기록 10초, 결과 /home/<user>/eg2-lab/applab/runs/t2_conf.csv
+Loading /home/<user>/eg2-lab/applab/t2/yolo11n_fp16.engine for TensorRT inference...
+[10/29/2026-18:02:40] [TRT] [I] Loaded engine size: 7 MiB
+[10/29/2026-18:02:40] [TRT] [W] Using an engine plan file across different models of devices is not supported and is likely to affect performance or even cause errors or deadlock.
+[10/29/2026-18:02:40] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +9, now: CPU 0, GPU 14 (MiB)
+18:07:04 기록 시작 bright_8m
+18:07:14 기록 {"time": "18:07:14", "label": "bright_8m", "frames": 251, "det_rate": 1.0, "conf_mean": 0.887, "conf_min": 0.876, "conf_max": 0.915, "box_h_px_mean": 436, "foot_x": 0.498, "foot_y": 0.696, "snapshot": "t2_conf_bright_8m.jpg"}
+18:07:52 기록 시작 bright_5m
+18:08:02 기록 {"time": "18:08:02", "label": "bright_5m", "frames": 251, "det_rate": 1.0, "conf_mean": 0.894, "conf_min": 0.883, "conf_max": 0.901, "box_h_px_mean": 668, "foot_x": 0.472, "foot_y": 0.818, "snapshot": "t2_conf_bright_5m.jpg"}
+18:08:37 기록 시작 bright_2m_v2
+18:08:47 기록 {"time": "18:08:47", "label": "bright_2m_v2", "frames": 251, "det_rate": 1.0, "conf_mean": 0.929, "conf_min": 0.927, "conf_max": 0.933, "box_h_px_mean": 1155, "foot_x": 0.357, "foot_y": 0.992, "snapshot": "t2_conf_bright_2m_v2.jpg"}
+18:24:53 기록 시작 dark_8m
+18:25:03 기록 {"time": "18:25:03", "label": "dark_8m", "frames": 168, "det_rate": 1.0, "conf_mean": 0.851, "conf_min": 0.817, "conf_max": 0.865, "box_h_px_mean": 434, "foot_x": 0.491, "foot_y": 0.714, "snapshot": "t2_conf_dark_8m.jpg"}
+18:25:46 기록 시작 dark_5m
+18:25:56 기록 {"time": "18:25:56", "label": "dark_5m", "frames": 168, "det_rate": 1.0, "conf_mean": 0.868, "conf_min": 0.616, "conf_max": 0.892, "box_h_px_mean": 661, "foot_x": 0.458, "foot_y": 0.827, "snapshot": "t2_conf_dark_5m.jpg"}
+18:26:39 기록 시작 dark_2m
+18:26:49 기록 {"time": "18:26:49", "label": "dark_2m", "frames": 217, "det_rate": 1.0, "conf_mean": 0.921, "conf_min": 0.438, "conf_max": 0.936, "box_h_px_mean": 1168, "foot_x": 0.349, "foot_y": 0.986, "snapshot": "t2_conf_dark_2m.jpg"}
